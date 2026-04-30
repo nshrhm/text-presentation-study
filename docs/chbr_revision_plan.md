@@ -16,8 +16,7 @@ This document converts the manuscript audit into repository tasks.
 ## Blocking Items Requiring Author Confirmation
 
 - Ethics approval or waiver details.
-- Original VAS item wording, anchors, and default positions.
-- Stress reverse-coding status: partially clarified by `original.pdf`, which states left=100 and right=0; still verify against the Unity application or raw logging code.
+- Default VAS slider positions, if they need to be reported.
 - Exact stimulus text, source, public-domain or permission status, length, language, line breaks, font, and display layout.
 - Recruitment source, compensation, demographics, language/reading background, randomization procedure, and group balance.
 - Funding, competing interests, CRediT author roles, and generative AI declaration.
@@ -25,3 +24,7 @@ This document converts the manuscript audit into repository tasks.
 ## Recommended Decision Before CHBR Submission
 
 Without new data, submit only as a cautious exploratory report. A stronger CHBR submission should add objective comprehension measures, multiple text types, adequate power, and a design context tied to streaming text in contemporary interfaces.
+
+## VAS Status
+
+The author confirmed the exact item wording and left/right anchors. Combined with `original.pdf`, which states left=100 and right=0, the current analysis direction is consistent: higher values indicate greater readability, stress, self-reported ease of understanding, and perceived memorability.
