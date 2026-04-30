@@ -14,3 +14,4 @@ This public log records reviewer-facing repository preparation. It intentionally
 - Added a publication checklist and version marker for the `v1.0.0` release.
 - Added CHBR-oriented revision materials after manuscript audit: anonymized manuscript, separate title page, highlights, declarations placeholder, VAS codebook, and revision plan.
 - Expanded analysis reporting with Welch tests, confidence intervals, Hedges' g, multiple-comparison corrections, robustness checks, and sensitivity power analysis.
+- Moved the Japanese source manuscript PDF into `backup/` and added a draft Round 1 rebuttal document.

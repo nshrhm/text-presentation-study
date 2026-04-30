@@ -37,6 +37,7 @@ The manuscript reports statistically significant differences for stress, underst
 | `docs/vas_codebook.md` | VAS scoring documentation and unresolved coding checks. |
 | `docs/stimulus_source.md` | Source metadata for the reading stimulus. |
 | `docs/chbr_revision_plan.md` | CHBR-focused revision status and remaining blockers. |
+| `docs/rebuttal_round1.md` | Draft response to reviewers based on the current revision. |
 | `docs/reproducibility.md` | Reproduction steps for figures and manuscript build. |
 | `docs/publication_checklist.md` | Public-release audit checklist. |
 | `docs/log.md` | Public project log for reviewer orientation. |
