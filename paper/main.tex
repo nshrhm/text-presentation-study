@@ -1,4 +1,4 @@
-\documentclass{elsarticle}
+\documentclass[authoryear]{elsarticle}
 
 \bibliographystyle{apalike}
 
@@ -6,7 +6,7 @@
 \usepackage{ragged2e}
 \usepackage{booktabs}
 \usepackage{graphicx}
-\usepackage{url}
+\usepackage{xurl}
 
 \title{Streaming Versus Full-Text Presentation in Web Interfaces: Effects on Perceived Understanding, Stress, and Completion Time}
 
@@ -15,7 +15,7 @@
 \begin{document}
 
 \begin{abstract}
-  Incremental text presentation is common in contemporary web interfaces, including streaming responses and progressive disclosure. This exploratory study compares character-by-character presentation with immediate full-text presentation in a small between-subjects experiment. Twenty-four participants with web service experience were assigned to one of two display conditions and completed Visual Analog Scale (VAS) ratings of readability, stress, self-reported ease of understanding, and memorability. Task completion time was also recorded. Welch's exploratory tests showed longer completion time in the character-by-character condition and higher unadjusted ratings for stress and self-reported ease of understanding. After Holm correction across five outcomes, only completion time remained statistically significant. Because understanding was measured subjectively and one text stimulus was used, these results should not be interpreted as evidence of improved objective comprehension. The findings are best viewed as preliminary evidence of a possible trade-off among perceived understanding, affective response, and completion time in streamed text interfaces.
+  Incremental text presentation is common in contemporary web interfaces, including streaming responses and progressive disclosure. This exploratory study compares character-by-character presentation with immediate full-text presentation in a small between-subjects experiment. Twenty-four participants with web service experience were assigned to one of two display conditions and completed Visual Analog Scale (VAS) ratings of readability, stress, self-reported ease of understanding, and perceived memorability. Task completion time was also recorded. Welch's exploratory tests showed longer completion time in the character-by-character condition and higher unadjusted ratings for stress and self-reported ease of understanding. After Holm correction across five outcomes, only completion time remained statistically significant. Because understanding was measured subjectively and one text stimulus was used, these results should not be interpreted as evidence of improved objective comprehension. The findings are best viewed as preliminary evidence of a possible trade-off among perceived understanding, affective response, and completion time in streamed text interfaces.
 \end{abstract}
 
 \begin{keyword}
@@ -28,26 +28,26 @@
 Modern web services often reveal text incrementally rather than presenting it all at once. Examples include streaming conversational interfaces, progressive disclosure, system feedback, and animated instructional text. The manner in which information is presented to users may affect perceived cognitive load, perceived ease of understanding, and overall experience. This study focuses on a narrow comparison between character-by-character text presentation and immediate full-text display. The aim is to provide preliminary empirical evidence on how these two display methods affect subjective user experience and task completion time.
 
 \subsection{Dynamic vs. Static Text Presentation}
-Dynamic text presentation has become increasingly prevalent in digital interfaces, from scrolling news tickers to gradual text revelation in applications. Uetsuki et al. demonstrated that dynamic text presentation has optimal reading rates around 6 letters per second, regardless of text difficulty level \cite{uetsuki2017}. Their research revealed that individual preferences for dynamic text presentation rates correlate with both silent and trace reading speeds, suggesting that reading traits influence users’ perception of dynamically presented text. However, their study also showed that optimal presentation rates are typically slower than silent reading speeds, which may affect the user experience.
+Dynamic text presentation has become increasingly prevalent in digital interfaces, from scrolling news tickers to gradual text revelation in applications. \citet{uetsuki2017} demonstrated that dynamic text presentation has optimal reading rates around 6 letters per second, regardless of text difficulty level. Their research revealed that individual preferences for dynamic text presentation rates correlate with both silent and trace reading speeds, suggesting that reading traits influence users' perception of dynamically presented text. However, their study also showed that optimal presentation rates are typically slower than silent reading speeds, which may affect the user experience.
 
-Research on reading speed limits provides additional context for understanding text-presentation methods. Primativo et al. investigated perceptual and cognitive factors that impose speed limits on reading rates using Rapid Serial Visual Presentation (RSVP) \cite{primativo2016}. Their findings indicate that eye movements impose an upper limit of approximately 300 wpm, which corresponds to the time needed for eye movement execution. This suggests that character-by-character presentation may conflict with natural reading patterns when the presentation rate exceeds the optimal threshold.
+Research on reading speed limits provides additional context for understanding text-presentation methods. \citet{primativo2016} investigated perceptual and cognitive factors that impose speed limits on reading rates using Rapid Serial Visual Presentation (RSVP). Their findings indicate that eye movements impose an upper limit of approximately 300 wpm, which corresponds to the time needed for eye movement execution. This suggests that character-by-character presentation may conflict with natural reading patterns when the presentation rate exceeds the optimal threshold.
 
 \subsection{Cognitive Load and Usability Assessment}
-The evaluation of text presentation methods requires careful consideration of cognitive load and usability. Longo et al. \cite{longo2018} explored the relationship between mental workload and perceived usability, finding that these constructs are non-overlapping and can be jointly employed to predict human performance. This study highlights the importance of measuring both objective performance and subjective perceptions when evaluating interface designs.
+The evaluation of text presentation methods requires careful consideration of cognitive load and usability. \citet{longo2018} explored the relationship between mental workload and perceived usability, finding that these constructs are non-overlapping and can be jointly employed to predict human performance. This study highlights the importance of measuring both objective performance and subjective perceptions when evaluating interface designs.
 
-Darejeh et al. \cite{darejeh2024} conducted a comprehensive analysis of cognitive load measurement methods for evaluating the usability of interfaces. Their systematic review of 76 articles provides a framework for selecting appropriate measurement techniques for different types of user interfaces. This study emphasizes the importance of employing validated cognitive load assessment methods in usability studies.
+\citet{darejeh2024} conducted a comprehensive analysis of cognitive load measurement methods for evaluating the usability of interfaces. Their systematic review of 76 articles provides a framework for selecting appropriate measurement techniques for different types of user interfaces. This study emphasizes the importance of employing validated cognitive load assessment methods in usability studies.
 
-The role of prior knowledge in text comprehension has been studied extensively. Amadieu et al. \cite{amadieu2009} investigated how prior knowledge affects learning from nonlinear electronic documents, finding that low-prior-knowledge learners benefit from hierarchical structures that reduce disorientation, while high-prior-knowledge learners perform better with network structures. This suggests that text presentation methods may have differential effects depending on users' familiarity with the content.
+The role of prior knowledge in text comprehension has been studied extensively. \citet{amadieu2009} investigated how prior knowledge affects learning from nonlinear electronic documents, finding that low-prior-knowledge learners benefit from hierarchical structures that reduce disorientation, while high-prior-knowledge learners perform better with network structures. This suggests that text presentation methods may have differential effects depending on users' familiarity with the content.
 
 \subsection{Measurement Techniques in Digital Interfaces}
-Visual Analog Scales (VAS) have emerged as valuable tools for measuring subjective responses in digital environments. Kühlmann et al. \cite{kuhlmann2016} demonstrated that VAS provides advantages over Likert-type scales in eHealth contexts, showing lower dropout rates and more differentiated responses. García-Pérez \cite{garcia-perez2023} further refined VAS design recommendations, showing that intermediate tick marks significantly improve the accuracy and precision of responses, reducing both inter- and intra-individual variability.
+Visual Analog Scales (VAS) have emerged as valuable tools for measuring subjective responses in digital environments. \citet{kuhlmann2016} demonstrated that VAS provides advantages over Likert-type scales in eHealth contexts, showing lower dropout rates and more differentiated responses. \citet{garcia-perez2023} further refined VAS design recommendations, showing that intermediate tick marks significantly improve the accuracy and precision of responses, reducing both inter- and intra-individual variability.
 
-Recent developments in human-computer interaction have emphasized the importance of comprehensive usability evaluations. Khashe et al. \cite{khashe2023} developed HCI-based leading indicators for telehealth interfaces by mapping Nielsen's usability heuristics to quality of care aspects. This study demonstrates the evolving sophistication of interface evaluation methodologies.
+Recent developments in human-computer interaction have emphasized the importance of comprehensive usability evaluations. \citet{khashe2023} developed HCI-based leading indicators for telehealth interfaces by mapping Nielsen's usability heuristics to quality of care aspects. This study demonstrates the evolving sophistication of interface evaluation methodologies.
 
 \subsection{Research Significance and Objectives}
 Despite the widespread use of dynamic text presentation in web interfaces, there remains a gap in understanding how character-by-character display affects user experience compared to static text presentations. While previous research has examined optimal presentation rates for dynamic text, few studies have directly compared the subjective user experience between dynamic and static presentation methods using validated measurement techniques.
 
-This study addresses this gap by employing a VAS-based subjective evaluation to compare character-by-character text output with a full-text display. By focusing on key usability dimensions, including readability, stress, self-reported ease of understanding, and memorability, this study aims to provide exploratory evidence for interface design decisions.
+This study addresses this gap by employing a VAS-based subjective evaluation to compare character-by-character text output with a full-text display. By focusing on key usability dimensions, including readability, stress, self-reported ease of understanding, and perceived memorability, this study aims to provide exploratory evidence for interface design decisions.
 
 The contribution is intentionally limited. The study does not test objective comprehension, learning, recall, or retention. Instead, it examines whether a single streamed text condition is associated with differences in perceived experience and completion time relative to a full-text condition.
 
@@ -56,16 +56,34 @@ The contribution is intentionally limited. The study does not test objective com
 This study employed a between-subjects experimental design to compare two text-presentation methods: character-by-character display (Group A) and full-text display (Group B). The design was chosen to eliminate potential carryover effects that might occur with within-subject comparisons, ensuring that participants' responses were not influenced by their experience with the alternative presentation method.
 
 \subsection{Measurement Framework}
-To investigate the differences in user experience caused by text output methods, we employed a usability measurement framework based on established HCI evaluation principles. Following the recommendations of Khashe et al. \cite{khashe2023} for interface evaluation, we selected four subjective dimensions: readability, stress, self-reported ease of understanding, and memorability. In addition, we measured task completion time under the assigned display method.
+To investigate the differences in user experience caused by text output methods, we employed a usability measurement framework based on established HCI evaluation principles. Following the recommendations of \citet{khashe2023} for interface evaluation, we selected four subjective dimensions: readability, stress, self-reported ease of understanding, and perceived memorability. In addition, we measured task completion time under the assigned display method.
 
 These dimensions were chosen to provide a broad view of perceived user experience. The inclusion of completion time allows the subjective ratings to be interpreted alongside the time required to finish the display task. Completion time should not be interpreted as pure reading speed because the character-by-character condition mechanically constrained the earliest possible completion point.
 
 \subsection{Visual Analog Scale Implementation}
-The Visual Analog Scale (VAS) served as the primary measurement instrument for subjective evaluations. This choice was motivated by Kühlmann et al.'s \cite{kuhlmann2016} demonstration of the advantages of the VAS over traditional Likert scales in digital environments, including reduced dropout rates and more differentiated responses. Following García-Pérez's \cite{garcia-perez2023} design recommendations, our VAS implementation used continuous sliders without intermediate tick marks to maximize response precision.
+The Visual Analog Scale (VAS) served as the primary measurement instrument for subjective evaluations. This choice was motivated by \citet{kuhlmann2016}, who reported advantages of the VAS over traditional Likert scales in digital environments, including reduced dropout rates and more differentiated responses. The VAS items were implemented as continuous sliders. Although prior work suggests that intermediate tick marks can improve VAS response accuracy and precision \citep{garcia-perez2023}, the present implementation used unticked sliders to reduce visual complexity and maintain a simple interface. This choice may affect measurement precision and is treated as a limitation.
 
 The VAS is characterized by intuitive responses on a continuous scale, allowing participants to express nuanced subjective experiences that might be constrained by discrete response options. The continuous nature of the VAS enables more sophisticated statistical analyses and provides greater sensitivity to subtle differences between conditions. Recent applications in medical and educational contexts have confirmed the validity and reliability of the VAS for measuring subjective experiences.
 
-An example of the Likert Scale format that was deliberately avoided is shown in Fig. \ref{fig:ls}, while a VAS interface example is illustrated in Fig. \ref{fig:vas}. The participants responded by positioning a slider along a continuous scale. The left endpoint was coded as 100 and the right endpoint as 0 in the original questionnaire documentation. The raw application recorded values from 0 to 1000, which were normalized to a 0--100 scale for analysis. Therefore, higher normalized values indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability.
+An example of the Likert Scale format that was deliberately avoided is shown in Fig. \ref{fig:ls}, while a VAS interface example is illustrated in Fig. \ref{fig:vas}. The participants responded by positioning a slider along a continuous scale. The left endpoint was coded as 100 and the right endpoint as 0 in the original questionnaire documentation. The raw application recorded values from 0 to 1000, which were normalized to a 0--100 scale for analysis. Therefore, higher normalized values indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability. Table \ref{tab:vas_codebook} reports the item wording, anchors, raw coding, normalization, and interpretation of higher scores for each VAS item.
+
+\begin{table}[htbp]
+  \centering
+  \caption{VAS Items and Coding}
+  \label{tab:vas_codebook}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{llllll}
+    \toprule
+    Construct & Item wording & Left anchor & Right anchor & Raw coding & Higher score means \\
+    \midrule
+    Readability & Was it easy to read? & Easier to read than anything experienced before & The highest possible difficulty reading & left = 1000, right = 0 & Greater perceived readability \\
+    Stress & Did you feel stress? & Unbearable stress & No stress at all & left = 1000, right = 0 & Greater stress \\
+    Self-reported ease of understanding & Was the text easy to understand? & Completely understood & Could not understand at all & left = 1000, right = 0 & Greater perceived understanding \\
+    Perceived memorability & Was the content easy to remember? & Completely remembered & Could not remember at all & left = 1000, right = 0 & Greater perceived memorability \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table}
 
 \begin{figure}[htbp]
   \centering
@@ -83,20 +101,18 @@ An example of the Likert Scale format that was deliberately avoided is shown in 
 
 \section{Experimental Procedure}
 \subsection{Participants}
-Twenty-four adults ($\geq 16$ years) with web service experience participated in this study. Participants were randomly assigned to two groups: character-by-character text output (Group A, $n = 12$) and full-text display (Group B, $n = 12$). The sample size was determined based on a power analysis for medium effect sizes (Cohen's $d = 0.8$) with $\alpha$ = 0.05 and power = 0.80.
-
-This power statement is retained here as a procedural record but is not statistically defensible as originally written. A sensitivity analysis indicates that with $n = 12$ per group, a two-sided independent-samples test at $\alpha = .05$ has approximately 47\% power for $d = 0.8$, and approximately $d = 1.20$ is required for 80\% power. Therefore, the present study should be treated as exploratory.
+Twenty-four adults ($\geq 16$ years) with web service experience participated in this study. Participants were randomly assigned to two groups: character-by-character text output (Group A, $n = 12$) and full-text display (Group B, $n = 12$). No statistically adequate a priori power analysis was available for the final design; therefore, the study is treated as exploratory. A sensitivity analysis indicated that, with $n = 12$ per group and $\alpha = .05$, a two-sided independent-samples comparison has approximately 47\% power to detect $d = 0.8$ and requires approximately $d = 1.20$ to achieve 80\% power. The study is therefore underpowered for small or moderate effects, and all inferential results should be interpreted cautiously.
 
 All participants provided written informed consent after receiving detailed information about the study’s purpose, procedures, and data handling. The study protocol ensured that no personal information was collected beyond basic demographic data, and all data were used exclusively for academic purposes. Participants were informed of their right to withdraw from the study at any time without penalty.
 
-The inclusion criteria required participants to have regular experience with web-based interfaces and normal or corrected-to-normal vision. The exclusion criteria included self-reported reading difficulties or visual impairments that might interfere with text processing. The between-subjects design eliminated concerns about practice effects or condition order influence.
+The inclusion criteria required participants to have regular experience with web-based interfaces and normal or corrected-to-normal vision. The exclusion criteria included self-reported reading difficulties or visual impairments that might interfere with text processing. The between-subjects design eliminated concerns about practice effects or condition order influence. The available public analysis record does not include recruitment source, compensation, age distribution, sex or gender distribution, language background, reading proficiency, familiarity with Akutagawa's work, or the exact randomization procedure. This incomplete participant documentation limits assessment of sample representativeness and group balance.
 
 \subsection{Materials and Apparatus}
 The experimental questionnaire was developed using Unity, a cross-platform development environment provided by Unity Technologies, Inc.. This platform was selected for its capability to provide precise timing measurements and consistent, cross-platform performance. The application recorded the participant responses and timing data with millisecond precision.
 
-The text stimulus consisted of an excerpt from the opening of Ryunosuke Akutagawa's short story ``Hana'' (``The Nose''), distributed by Aozora Bunko \cite{akutagawa_aozora_hana}. The excerpt was selected as a single literary stimulus of moderate complexity and began with the description of Zenchi Naigu's nose. Source metadata are available from Aozora Bunko, including the base text, parent base text, and first publication in \textit{Shinshicho} in February 1916. Exact stimulus length, line breaks, font, and display layout should be documented before journal submission.
+The text stimulus consisted of an excerpt from the opening of Ryunosuke Akutagawa's short story ``Hana'' (``The Nose''), distributed by Aozora Bunko \citep{akutagawa_aozora_hana}. The excerpt was selected as a single literary stimulus of moderate complexity and began with the description of Zenchi Naigu's nose. Source metadata are available from Aozora Bunko, including the base text, parent base text, and first publication in \textit{Shinshicho} in February 1916. The available source records identify the literary source and excerpt range, but exact display metadata such as line breaks, font, and screen layout were not preserved in the public analysis record. This limits reproducibility and is treated as a methodological limitation.
 
-For the character-by-character condition, the text appeared at a fixed rate of one character per 0.1 seconds (equivalent to 10 characters per second). Uetsuki and Horii \cite{uetsuki2017} reported optimal dynamic presentation rates around 6 letters per second, so the present rate should be interpreted as an implementation choice rather than a direct replication of that optimum. The total reveal duration must be reported once the exact stimulus length is verified.
+For the character-by-character condition, the text appeared at a fixed rate of one character per 0.1 seconds (equivalent to 10 characters per second). \citet{uetsuki2017} reported optimal dynamic presentation rates around 6 letters per second, so the present rate should be interpreted as an implementation choice rather than a direct replication of that optimum. Because the exact character count used by the Unity application has not been recovered from the public analysis record, the total reveal duration cannot be reconstructed precisely from the current repository.
 
 \subsection{Procedure}
 The experimental session consisted of three sequential phases: orientation, text presentation, and evaluation phase. Each session lasted approximately 10-15 minutes and was conducted in a controlled environment with consistent lighting and minimal distractions.
@@ -105,10 +121,10 @@ The experimental session consisted of three sequential phases: orientation, text
 
 \textbf{Phase 2: Text Presentation.} Upon entering the text section, the timing measurement began automatically. Group A participants initially observed blank screens with characters appearing sequentially at a predetermined rate. Participants in Group B saw the complete text immediately upon screen entry. Participants were instructed to read naturally and press a ``Next'' button upon completing their reading, which stopped the timing measurement and advanced to the evaluation phase.
 
-\textbf{Phase 3: Evaluation.} Participants completed VAS ratings for all four dimensions (readability, stress, self-reported ease of understanding, and memorability) using continuous sliders scaled from 0 to 1000 (later normalized to 0-100 for analysis). The evaluation interface presented each dimension on a separate screen to reduce immediate cross-item influence. The participants concluded by pressing an ``End'' button, completing the session.
+\textbf{Phase 3: Evaluation.} Participants completed VAS ratings for all four dimensions (readability, stress, self-reported ease of understanding, and perceived memorability) using continuous sliders scaled from 0 to 1000 (later normalized to 0-100 for analysis). The evaluation interface presented each dimension on a separate screen to reduce immediate cross-item influence. The participants concluded by pressing an ``End'' button, completing the session.
 
 \subsection{Statistical Analysis}
-All analyses should be interpreted as exploratory. Welch's independent-samples t-tests were used for all outcomes as the primary parametric comparison. Mean differences, 95\% confidence intervals, Hedges' $g$, Holm-adjusted p-values across the five outcomes, Mann--Whitney U tests, and permutation tests were computed as sensitivity analyses.
+All analyses should be interpreted as exploratory. Welch's independent-samples t-tests were used for all outcomes as the primary parametric comparison. Mean differences, 95\% confidence intervals, Hedges' $g$, Holm-adjusted p-values across the five outcomes, Mann--Whitney U tests, and permutation tests were computed as sensitivity analyses. Additional robustness outputs, including Levene's tests, Shapiro--Wilk tests, Mann--Whitney U tests, permutation tests, Bonferroni-adjusted p-values, and Benjamini--Hochberg adjusted p-values, are provided in the public analysis output accompanying the repository.
 
 All analyses were conducted with $\alpha$ = 0.05 as the nominal significance criterion. Missing data procedures were established but were not needed as the study achieved a 100\% completion rate.
 
@@ -223,7 +239,7 @@ To compare Groups A and B across all measured dimensions, we conducted explorato
 
 The complete analysis results are summarized in Table \ref{tab:test}, which presents mean differences, 95\% confidence intervals, Welch p-values, Holm-adjusted p-values, and Hedges' $g$ for all measured dimensions.
 
-Using unadjusted Welch tests, stress, self-reported ease of understanding, and completion time differed between groups. After Holm correction across the five outcomes, only completion time remained statistically significant. Readability and memorability showed no clear group differences.
+Using unadjusted Welch tests, stress, self-reported ease of understanding, and completion time differed between groups. After Holm correction across the five outcomes, only completion time remained statistically significant. Readability and perceived memorability showed no clear group differences.
 
 \begin{table}[htbp]
   \centering
@@ -245,7 +261,7 @@ Using unadjusted Welch tests, stress, self-reported ease of understanding, and c
 \end{table}
 
 \subsection{Statistical Significance Summary}
-The exploratory analysis yielded the clearest evidence for longer completion time in the character-by-character condition. For readability and memorability, the unadjusted p-values exceeded 0.05, indicating no clear differences between the presentation methods.
+The exploratory analysis yielded the clearest evidence for longer completion time in the character-by-character condition. For readability and perceived memorability, the unadjusted p-values exceeded 0.05, indicating no clear differences between the presentation methods.
 
 Stress showed an unadjusted group difference $(p = 0.0157)$, but this result did not remain below 0.05 after Holm correction. Self-reported ease of understanding also showed an unadjusted difference $(p = 0.0456)$, but this result did not remain significant after Holm correction. Completion time remained significant after Holm correction $(p = 0.0180)$, with the full-text condition requiring less time to complete the task.
 
@@ -262,36 +278,36 @@ Self-reported ease of understanding also showed higher observed scores in Group 
 The time analysis revealed that Group B completed the task faster $(M = 58.21s, SD = 20.72)$ than Group A $(M = 80.87s, SD = 10.03)$, with a Welch p-value of 0.0036 and a Holm-adjusted p-value of 0.0180. This result should be interpreted as task completion time under display constraints. It should not be interpreted as reading efficiency because the character-by-character presentation rate mechanically imposed a minimum display duration.
 
 \subsection{Interpretation of Non-Significant Results}
-The absence of significant differences in the readability and memorability dimensions provides important insights. The readability scores showed no significant difference between the groups (Group A: $M = 35.42$, Group B: $M = 43.17, p = 0.344$), suggesting that both presentation methods achieved comparable perceived legibility. This finding is consistent with García-Pérez's \cite{garcia-perez2023} work on measurement precision, indicating that the VAS methodology successfully captured subtle differences in some dimensions while revealing genuine similarities in others.
+The data did not provide evidence of group differences in perceived readability or perceived memorability. Because the study was underpowered and no equivalence tests were conducted, these findings should not be interpreted as evidence that the two presentation methods are equivalent.
 
-Similarly, memorability scores showed no significant difference (Group A: $M = 34.67$, Group B: $M = 37.25, p = 0.74$), which may reflect the complex relationship between presentation method and retention identified by Amadieu and Salmerón \cite{amadieu2009}. The lack of difference could indicate that memory consolidation occurs independently of presentation timing within the tested duration.
+In addition, memorability was assessed subjectively. No objective recall, delayed retention, or memory consolidation measure was included. The study therefore cannot determine whether presentation timing affected memory.
 
 \subsection{Theoretical Implications}
 These findings contribute preliminary evidence to the understanding of dynamic text presentation. First, they suggest a possible trade-off between perceived understanding, affective response, and completion time in streamed text interfaces. The results do not establish improved objective comprehension or deeper processing.
 
-Second, the results support Darejeh and Singh's \cite{darejeh2024} emphasis on multidimensional cognitive load assessment. The differential effects across the stress, understanding, and time dimensions highlight the importance of comprehensive evaluation frameworks rather than single-metric assessments.
+Second, the results are consistent with \citet{darejeh2024}'s emphasis on multidimensional cognitive load assessment. The differential effects across the stress, understanding, and time dimensions highlight the importance of comprehensive evaluation frameworks rather than single-metric assessments.
 
-Third, this study illustrates the practical use of VAS-style subjective ratings in a dynamic text interface. However, the VAS implementation requires fuller reporting of item anchors, coding direction, default position, and normalization before the instrument can be evaluated fully.
+Third, this study illustrates the practical use of VAS-style subjective ratings in a dynamic text interface. However, the VAS implementation used unticked sliders and the available record does not document the default slider position, which limits evaluation of the instrument.
 
 \section{Limitations and Future Directions}
 \subsection{Sample and Methodology Limitations}
 This study has several limitations that should be addressed in future research. The sample size of 24 participants limits the generalizability and statistical power of the findings. Future studies should employ larger and more diverse samples to enhance external validity and enable subgroup analyses based on reading proficiency or age groups.
 
-The fixed character presentation rate (0.1 s per character) represents another limitation. Uetsuki and Horii \cite{uetsuki2017} demonstrated individual variations in optimal presentation rates, suggesting that personalized timing may yield different results. Future research should investigate adaptive presentation rates that adjust to individual reading speed.
+The fixed character presentation rate (0.1 s per character) represents another limitation. \citet{uetsuki2017} demonstrated individual variations in optimal presentation rates, suggesting that personalized timing may yield different results. Future research should investigate adaptive presentation rates that adjust to individual reading speed.
 
-The choice of literary text (Akutagawa's ``The Nose'') may have influenced the results due to its cultural specificity and literary complexity. Amadieu et al.'s \cite{amadieu2009} work on prior knowledge effects suggests that text familiarity could moderate the observed differences. Future studies should examine the effects across different text types, complexity levels, and subject domains.
+The choice of literary text (Akutagawa's ``The Nose'') may have influenced the results due to its cultural specificity and literary complexity. Prior work on prior-knowledge effects suggests that text familiarity could moderate the observed differences \citep{amadieu2009}. Future studies should examine the effects across different text types, complexity levels, and subject domains.
 
 \subsection{Methodological Considerations}
 Exclusive reliance on subjective measures is a central limitation. Eye-tracking data, physiological measures, objective comprehension questions, recall tests, and delayed retention measures can provide converging evidence for the observed effects and reveal the underlying cognitive mechanisms.
 
-The current manuscript also requires completion of ethics reporting before journal submission. The approving body, approval or waiver date, reference number, consent procedure, privacy protection procedure, and handling of participants aged 16--17 must be documented.
+The original study records available for this revision do not include documentation of an institutional ethics approval or waiver. This absence is a critical limitation for journals that require documented ethics review for human-participant research. The authors should obtain institutional guidance if such documentation cannot be recovered.
 
 Although the experimental setting was controlled, it may not have reflected natural reading contexts. Future research should investigate these effects in ecologically valid environments, such as actual web applications or mobile interfaces, to enhance their practical relevance.
 
 \subsection{Directions for Future Research}
 Several promising research directions have emerged from this study. First, investigating optimal presentation rates tailored to individual differences could resolve the stress-understanding trade-off observed here. Adaptive systems that adjust timing based on real-time user feedback represent a particularly promising avenue for research.
 
-Second, examining the long-term effects of different presentation methods on learning and retention can inform educational technology design. The observed understanding advantage for character-by-character presentations warrants investigation in learning contexts.
+Second, examining the long-term effects of different presentation methods on learning and retention can inform educational technology design. The unadjusted pattern for self-reported ease of understanding may justify further study in learning contexts, but only if future work includes objective comprehension and retention measures.
 
 Third, exploring the effects of presentation methods on different user populations (e.g., older adults and individuals with reading difficulties) could reveal important accessibility implications. The stress differences observed here may be particularly relevant for users with cognitive processing differences.
 
@@ -306,7 +322,17 @@ The optimal application of these findings requires consideration of context-spec
 
 The limitations of this study, including the sample size, text selection, VAS reporting, and lack of objective comprehension measures, indicate areas for methodological improvement. The study should therefore be read as a pilot or exploratory report rather than a basis for general design guidelines.
 
-This study demonstrates that text presentation methods significantly impact user experience in measurable ways. By continuing to investigate these effects through rigorous empirical methods, the field can develop a more nuanced understanding of how interface design choices affect human cognition and user satisfaction in digital environments.
+\section*{Ethics Statement}
+All participants received written information about the study purpose, procedure, data handling, and academic use of responses, and provided written informed consent before participation. The original study records available for this revision do not include documentation of an institutional ethics approval or waiver. This absence is a critical limitation for journals that require documented ethics review for human-participant research.
+
+\section*{Data Availability}
+The anonymized participant-level dataset and analysis code supporting this study are publicly available at \url{https://github.com/nshrhm/text-presentation-study}.
+
+\section*{Funding}
+The available study records do not identify a specific funding source.
+
+\section*{Declaration of Generative AI and AI-Assisted Technologies in the Manuscript Preparation Process}
+During the preparation of this work, the authors used ChatGPT and Codex for author-side pre-submission critique, revision planning, code and documentation editing, and language-editing support. After using these tools, the authors reviewed, edited, and verified the content, analyses, references, and interpretations, and take full responsibility for the content of the manuscript.
 
 \bibliography{refworks}
 

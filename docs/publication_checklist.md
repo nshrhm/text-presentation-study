@@ -17,7 +17,7 @@ This checklist records the repository-level checks performed before the `v1.0.0`
 - LaTeX build log contains no unresolved citation or reference warnings.
 - The main manuscript file has been anonymized for double-anonymized review.
 - A separate title page file has been added.
-- CHBR-style highlights and declaration placeholder files have been added.
+- CHBR-style highlights and declaration files have been added.
 - VAS scoring risks are documented in `docs/vas_codebook.md`.
 
 ## Publication Notes
@@ -28,8 +28,8 @@ No reuse license has been selected in this release. Until a license is added, co
 
 ## Remaining Submission Blockers
 
-- Ethics approval or waiver details must be added before journal submission.
-- Stress VAS scoring direction must be verified before interpreting the stress result.
-- Stimulus source metadata is documented in `docs/stimulus_source.md`; exact excerpt length, line breaks, font, and display details must still be documented.
+- Ethics approval or waiver details remain unresolved and require institutional confirmation before journal submission.
+- Stress VAS scoring direction has been verified from the source manuscript and author-confirmed anchors.
+- Stimulus source metadata is documented in `docs/stimulus_source.md`; exact excerpt length, line breaks, font, display details, and total reveal duration remain unavailable in the public analysis record unless recovered from original materials.
 - Participant recruitment, demographics, randomization, compensation, and group balance details must be completed.
-- Funding, competing interests, CRediT roles, and generative-AI declaration must be completed.
+- Funding, competing interests, CRediT roles, and final author approval of the generative-AI declaration must be completed.

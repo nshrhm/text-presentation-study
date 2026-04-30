@@ -13,11 +13,11 @@ Changes made:
 - Main anonymized manuscript: `paper/main.tex`
 - Separate title page: `paper/title_page.tex`
 - Highlights: `paper/highlights.md`
-- Declarations placeholder: `paper/declarations.md`
+- Declarations file for author completion: `paper/declarations.md`
 
 **Comment: Human-subject ethics reporting is incomplete.**
 
-Response: We agree. We have not invented ethics information that is not yet confirmed. Instead, we added a dedicated declarations file and revision plan identifying ethics approval or waiver details as a blocking item before CHBR submission. The final manuscript will require the approving body or waiver authority, date, reference number, consent procedure, privacy protection procedure, and handling of participants aged 16-17.
+Response: We agree. We have not invented ethics information that is not yet confirmed. The revised manuscript now states the verified consent information and explicitly identifies the absence of recoverable institutional ethics approval or waiver documentation as a submission-blocking limitation. The declarations and checklist files identify the exact author-confirmed information required before a CHBR submission can proceed: approving body or waiver authority, date, reference number, consent procedure, privacy protection procedure, and handling of participants aged 16-17.
 
 Changes made:
 
@@ -85,7 +85,7 @@ Changes made:
 
 **Comment 2: Sample size and power analysis are incorrect or underreported.**
 
-Response: We agree. We corrected the power statement. The manuscript now states that the original claim of 80% power for d = 0.8 with n = 12 per group is not statistically defensible. We added a sensitivity power analysis showing that the design has approximately 47% power for d = 0.8 and that approximately d = 1.20 is required for 80% power. We now treat the study as exploratory.
+Response: We agree. We replaced the original power statement with an exploratory framing. The manuscript now states that no statistically adequate a priori power analysis was available for the final design. We added a sensitivity power analysis showing that the design has approximately 47% power for d = 0.8 and that approximately d = 1.20 is required for 80% power. We now treat the study as exploratory.
 
 Changes made:
 
@@ -96,7 +96,7 @@ Changes made:
 
 **Comment 3: Multiple testing was not controlled, and confidence intervals and robustness checks were missing.**
 
-Response: We agree. We expanded the analysis pipeline. The revised analysis reports Welch's independent-samples t-tests for all outcomes, mean differences, 95% confidence intervals, Hedges' g, bootstrap confidence intervals for Hedges' g, Holm-adjusted p-values, Bonferroni-adjusted p-values, Benjamini-Hochberg adjusted p-values, Mann-Whitney U tests, permutation tests, Shapiro-Wilk checks, and Levene tests. The manuscript now emphasizes that only completion time remains significant after Holm correction.
+Response: We agree. We expanded the analysis pipeline. The manuscript reports Welch's independent-samples t-tests for all outcomes, mean differences, 95% confidence intervals, Hedges' g, Hedges' g confidence intervals, and Holm-adjusted p-values. Additional robustness and assumption checks, including Levene's tests, Shapiro-Wilk tests, Mann-Whitney U tests, permutation tests, Bonferroni-adjusted p-values, and Benjamini-Hochberg adjusted p-values, are provided in `docs/analysis_results.md`. The manuscript now emphasizes that only completion time remains significant after Holm correction.
 
 Changes made:
 
@@ -108,7 +108,7 @@ Changes made:
 
 **Comment 4: VAS design, anchors, scaling, and interpretation were underreported.**
 
-Response: We agree. We documented the exact item wording and left/right anchors for all four VAS items. The original questionnaire used left=100 and right=0, and the raw application values were normalized from 0-1000 to 0-100. Higher values therefore indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability.
+Response: We agree. We documented the exact item wording and left/right anchors for all four VAS items in both the manuscript and `docs/vas_codebook.md`. The original questionnaire used left=100 and right=0, and the raw application values were normalized from 0-1000 to 0-100. Higher values therefore indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability. We also corrected the VAS tick-mark rationale: the manuscript now states that unticked sliders were an implementation choice and that this may affect measurement precision.
 
 Changes made:
 
@@ -117,7 +117,7 @@ Changes made:
 
 **Comment 5: Stimulus and rate details are internally inconsistent or underreported.**
 
-Response: We partially addressed this issue. We documented the stimulus source and cited the Aozora Bunko version of Akutagawa's "Hana" ("The Nose"). We also clarified that the 0.1 s/character rate equals 10 characters per second and should be interpreted as an implementation choice, not a direct replication of the approximately 6 letters/second optimum reported in prior work. Exact stimulus length, line breaks, font, and display layout still need to be documented from the original experimental materials before submission.
+Response: We partially addressed this issue. We documented the stimulus source and cited the Aozora Bunko version of Akutagawa's "Hana" ("The Nose"). We also clarified that the 0.1 s/character rate equals 10 characters per second and should be interpreted as an implementation choice, not a direct replication of the approximately 6 letters/second optimum reported in prior work. The revised manuscript now states that exact display metadata such as line breaks, font, screen layout, and total reveal duration were not preserved in the public analysis record, and treats this as a methodological limitation.
 
 Changes made:
 
@@ -153,11 +153,11 @@ Response: We renamed "Results and Discussion" to "Discussion" and reduced repeat
 
 **Reference style and citation mismatches**
 
-Response: We changed the bibliography style from numbered `unsrt` to `apalike` and corrected author-name mismatches for Darejeh et al. and Amadieu et al.
+Response: We changed the manuscript to use author-date citation commands and corrected author-name mismatches for Darejeh et al. and Amadieu et al.
 
 **Author footnotes**
 
-Response: We removed placeholder author footnotes from the anonymized manuscript.
+Response: We removed boilerplate author footnotes from the anonymized manuscript.
 
 **Copyright/source**
 
@@ -168,11 +168,11 @@ Response: We added source metadata for Akutagawa's "Hana" from Aozora Bunko and 
 The following items still require author confirmation or additional source material before CHBR submission:
 
 - Ethics approval or waiver details.
-- Exact stimulus length, line breaks, font, and display layout.
+- Exact stimulus length, line breaks, font, display layout, and total reveal duration, if recoverable from original materials.
 - Participant recruitment source, compensation, demographics, language/reading background, randomization procedure, and group balance.
 - Funding statement.
 - Competing-interest declaration.
 - CRediT author statement.
-- Generative AI declaration, if applicable.
+- Final author approval of the generative AI declaration.
 
 We have documented these remaining blockers in `docs/chbr_revision_plan.md` and `docs/publication_checklist.md`.

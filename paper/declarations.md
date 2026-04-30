@@ -1,6 +1,6 @@
 # Declarations
 
-This file collects CHBR submission declarations that must be completed before journal submission.
+This file collects CHBR submission declarations that require author confirmation before journal submission.
 
 ## Ethics Approval
 
@@ -35,4 +35,4 @@ Pending author confirmation.
 
 ## Generative AI Declaration
 
-Pending author confirmation.
+During the preparation of this work, the authors used ChatGPT and Codex for author-side pre-submission critique, revision planning, code and documentation editing, and language-editing support. After using these tools, the authors reviewed, edited, and verified the content, analyses, references, and interpretations, and take full responsibility for the content of the manuscript.
