@@ -17,7 +17,7 @@ This document converts the manuscript audit into repository tasks.
 
 - Ethics approval or waiver details.
 - Default VAS slider positions, if they need to be reported.
-- Exact stimulus text, source, public-domain or permission status, length, language, line breaks, font, and display layout.
+- Exact stimulus text, length, language, line breaks, font, and display layout. Source metadata has been documented in `docs/stimulus_source.md`.
 - Recruitment source, compensation, demographics, language/reading background, randomization procedure, and group balance.
 - Funding, competing interests, CRediT author roles, and generative AI declaration.
 

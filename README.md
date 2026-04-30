@@ -35,6 +35,7 @@ The manuscript reports statistically significant differences for stress, underst
 | `docs/data_dictionary.md` | Variable definitions and coding notes for the CSV dataset. |
 | `docs/analysis_results.md` | Regenerated descriptive and inferential statistics. |
 | `docs/vas_codebook.md` | VAS scoring documentation and unresolved coding checks. |
+| `docs/stimulus_source.md` | Source metadata for the reading stimulus. |
 | `docs/chbr_revision_plan.md` | CHBR-focused revision status and remaining blockers. |
 | `docs/reproducibility.md` | Reproduction steps for figures and manuscript build. |
 | `docs/publication_checklist.md` | Public-release audit checklist. |
@@ -56,7 +57,7 @@ The public dataset in `src/data_all.csv` contains anonymized participant-level m
 
 ## Submission Readiness
 
-This repository now contains a more cautious exploratory manuscript package, but it is not ready for CHBR submission until the unresolved ethics approval/waiver details, VAS scoring direction, stimulus documentation, participant demographics, and declaration fields are confirmed.
+This repository now contains a more cautious exploratory manuscript package, but it is not ready for CHBR submission until the unresolved ethics approval/waiver details, remaining stimulus display details, participant demographics, and declaration fields are confirmed.
 
 ## License
 

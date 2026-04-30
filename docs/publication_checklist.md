@@ -30,6 +30,6 @@ No reuse license has been selected in this release. Until a license is added, co
 
 - Ethics approval or waiver details must be added before journal submission.
 - Stress VAS scoring direction must be verified before interpreting the stress result.
-- Stimulus source, exact excerpt, public-domain or permission status, and display details must be documented.
+- Stimulus source metadata is documented in `docs/stimulus_source.md`; exact excerpt length, line breaks, font, and display details must still be documented.
 - Participant recruitment, demographics, randomization, compensation, and group balance details must be completed.
 - Funding, competing interests, CRediT roles, and generative-AI declaration must be completed.
