@@ -11,20 +11,20 @@ The public CSV contains normalized 0-100 values for the following variables:
 - `understanding`
 - `memorability`
 
-The manuscript should not be submitted until the original questionnaire and/or logging code confirm the exact item wording, anchors, default slider position, and scoring direction for every item.
+The Japanese source manuscript `original.pdf` states that participants answered by moving a slider where the left endpoint was 100 and the right endpoint was 0. This supports the current interpretation that higher stress values indicate greater stress if the original experimental application used the same anchors shown in the source manuscript. The original Unity project or raw logging code should still be checked before submission.
 
 ## Required Item-Level Documentation
 
 | Variable | Construct | Raw scale | Normalized scale | Higher values currently treated as | Status |
 | --- | --- | --- | --- | --- | --- |
-| `readability` | Perceived readability | 0-1000 | 0-100 | More readable | Needs anchor verification |
-| `stress` | Perceived stress | 0-1000 | 0-100 | More stress | Critical: scoring direction must be verified |
-| `understanding` | Self-reported ease of understanding | 0-1000 | 0-100 | Greater perceived understanding | Needs anchor verification |
-| `memorability` | Perceived memorability | 0-1000 | 0-100 | Greater perceived memorability | Needs anchor verification |
+| `readability` | Perceived readability | 0-1000 | 0-100 | More readable | Source manuscript supports left=100/right=0; exact anchors still needed |
+| `stress` | Perceived stress | 0-1000 | 0-100 | More stress | Source manuscript supports left=100/right=0; verify against app/logging code |
+| `understanding` | Self-reported ease of understanding | 0-1000 | 0-100 | Greater perceived understanding | Source manuscript supports left=100/right=0; exact anchors still needed |
+| `memorability` | Perceived memorability | 0-1000 | 0-100 | Greater perceived memorability | Source manuscript supports left=100/right=0; exact anchors still needed |
 
 ## Stress Coding Risk
 
-The static UI example in `src/sample_ui_en.html` shows the stress slider with the left anchor "Unbearable stress" and the right anchor "No stress at all". If the original experimental application used the same left-to-right coding without reverse coding, higher numeric values would mean less stress. The current analysis treats higher values as greater stress. This must be resolved from the original Unity project or raw export documentation before the stress result is publishable.
+The static UI example in `src/sample_ui_en.html` shows the stress slider with the left anchor "Unbearable stress" and the right anchor "No stress at all". The Japanese source manuscript states that VAS responses used left=100 and right=0. If the original experimental application used this coding, higher stress values mean greater stress and the current stress interpretation is directionally consistent. This should still be verified from the original Unity project or raw export documentation before the stress result is treated as fully resolved.
 
 ## Submission Requirement
 

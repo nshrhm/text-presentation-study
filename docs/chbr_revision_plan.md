@@ -16,8 +16,8 @@ This document converts the manuscript audit into repository tasks.
 ## Blocking Items Requiring Author Confirmation
 
 - Ethics approval or waiver details.
-- Original VAS item wording, anchors, default positions, and scoring direction.
-- Stress reverse-coding status.
+- Original VAS item wording, anchors, and default positions.
+- Stress reverse-coding status: partially clarified by `original.pdf`, which states left=100 and right=0; still verify against the Unity application or raw logging code.
 - Exact stimulus text, source, public-domain or permission status, length, language, line breaks, font, and display layout.
 - Recruitment source, compensation, demographics, language/reading background, randomization procedure, and group balance.
 - Funding, competing interests, CRediT author roles, and generative AI declaration.
