@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .checkbox-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .checkbox-item {
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    input[type="radio"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    label {
+      font-size: 16px;
+      color: #555;
+      cursor: pointer;
+    }
+
+    label:hover {
+      color: #333;
+    }
+
+    /* Question 2 slider styles */
+    .question-section {
+      margin-top: 40px;
+      padding-top: 30px;
+      border-top: 1px solid #eee;
+    }
+
+    .slider-container {
+      margin: 20px 0;
+    }
+
+    .slider-wrapper {
+      position: relative;
+      margin: 20px 0;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 8px;
+      border-radius: 5px;
+      background: #ddd;
+      outline: none;
+      -webkit-appearance: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #4CAF50;
+      cursor: pointer;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #4CAF50;
+      cursor: pointer;
+      border: none;
+    }
+
+    .slider-labels {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .slider-value {
+      text-align: center;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="checkbox-container">
+    <h2>Question 1: Please tell us about your feelings</h2>
+    <form>
+      <div class="checkbox-item">
+        <input type="radio" id="very-much" name="feeling" value="Strongly agree">
+        <label for="very-much">Strongly agree</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="radio" id="somewhat" name="feeling" value="Somewhat agree">
+        <label for="somewhat">Somewhat agree</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="radio" id="neutral" name="feeling" value="Neither agree nor disagree">
+        <label for="neutral">Neither agree nor disagree</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="radio" id="not-much" name="feeling" value="Somewhat disagree">
+        <label for="not-much">Somewhat disagree</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="radio" id="not-at-all" name="feeling" value="Strongly disagree">
+        <label for="not-at-all">Strongly disagree</label>
+      </div>
+    </form>
+  </div>
+
+  <div class="checkbox-container question-section">
+    <h2>Question 2: Did you feel stress?</h2>
+    <form>
+      <div class="slider-container">
+        <div class="slider-wrapper">
+          <input type="range" id="stress-level" min="0" max="100" value="50" name="stress">
+          <div class="slider-labels">
+            <span>Unbearable stress</span>
+            <span>No stress at all</span>
+          </div>
+          <div class="slider-value" id="stress-value">50</div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const stressSlider = document.getElementById('stress-level');
+    const stressValue = document.getElementById('stress-value');
+
+    stressSlider.addEventListener('input', function () {
+      stressValue.textContent = stressSlider.value;
+    });
+  </script>
+</body>
+
+</html>

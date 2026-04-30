@@ -1,0 +1,23 @@
+# Publication Checklist
+
+This checklist records the repository-level checks performed before the `v1.0.0` public release.
+
+## Completed Checks
+
+- `backup/` is excluded by `.gitignore`.
+- Local assistant/editor state is excluded by `.gitignore`.
+- Localized Japanese draft artifacts are excluded by `.gitignore`.
+- LaTeX build products are excluded by `.gitignore`.
+- Public repository documentation is written in English.
+- Public dataset contains anonymized participant-level measurements only.
+- Analysis scripts run from the repository root.
+- Statistical analysis outputs are regenerated from `src/data_all.csv`.
+- Manuscript figures are regenerated from `src/data_all.csv`.
+- `paper/main.pdf` is rebuilt from `paper/main.tex`.
+- LaTeX build log contains no unresolved citation or reference warnings.
+
+## Publication Notes
+
+This repository is intended as a reviewer-facing research package for an unpublished manuscript. No private development notes from `backup/` are part of the release.
+
+No reuse license has been selected in this release. Until a license is added, copyright remains with the authors and GitHub's default terms apply.

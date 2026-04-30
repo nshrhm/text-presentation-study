@@ -1,0 +1,32 @@
+# Private development notes
+backup/
+
+# Local assistant/editor state
+.codex
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated visualization outputs created outside paper/images
+src/graph*_*.png
+src/graph*_*.pdf
+
+# Localized draft artifacts that are not part of the English reviewer package
+src/sample_ui_ja.html
+paper/images/*_ja.*
+
+# Vendored LaTeX template package; use a local TeX installation instead
+paper/elsarticle/
+
+# LaTeX build products
+*.log
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.spl
+paper/*.synctex.gz
+paper/*.toc

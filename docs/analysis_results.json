@@ -1,0 +1,146 @@
+{
+  "data": "src/data_all.csv",
+  "descriptive_statistics": {
+    "A": [
+      {
+        "measure": "readability",
+        "min": 13.0,
+        "median": 28.0,
+        "mean": 35.416666666666664,
+        "max": 77.0,
+        "std": 22.58099898479948
+      },
+      {
+        "measure": "stress",
+        "min": 22.0,
+        "median": 65.5,
+        "mean": 65.25,
+        "max": 91.0,
+        "std": 20.04596989648815
+      },
+      {
+        "measure": "understanding",
+        "min": 0.0,
+        "median": 41.5,
+        "mean": 40.25,
+        "max": 72.0,
+        "std": 18.887826767524103
+      },
+      {
+        "measure": "memorability",
+        "min": 9.0,
+        "median": 27.5,
+        "mean": 34.666666666666664,
+        "max": 80.0,
+        "std": 21.777107802516483
+      },
+      {
+        "measure": "time",
+        "min": 75.296991,
+        "median": 76.52527,
+        "mean": 80.87382758333332,
+        "max": 106.849,
+        "std": 10.036139682254468
+      }
+    ],
+    "B": [
+      {
+        "measure": "readability",
+        "min": 26.0,
+        "median": 36.5,
+        "mean": 43.166666666666664,
+        "max": 79.0,
+        "std": 16.174240650060227
+      },
+      {
+        "measure": "stress",
+        "min": 0.0,
+        "median": 41.5,
+        "mean": 42.083333333333336,
+        "max": 88.0,
+        "std": 23.10630899021986
+      },
+      {
+        "measure": "understanding",
+        "min": 11.0,
+        "median": 24.5,
+        "mean": 26.083333333333332,
+        "max": 59.0,
+        "std": 13.097246992703422
+      },
+      {
+        "measure": "memorability",
+        "min": 12.0,
+        "median": 37.5,
+        "mean": 37.25,
+        "max": 61.0,
+        "std": 15.321553446044563
+      },
+      {
+        "measure": "time",
+        "min": 24.97643,
+        "median": 51.95612,
+        "mean": 58.20574666666667,
+        "max": 109.12331,
+        "std": 20.720250991985125
+      }
+    ]
+  },
+  "tests": [
+    {
+      "measure": "readability",
+      "variance_homogeneity": "Homogeneous",
+      "levene_p_value": 0.2538217998570398,
+      "test": "Student t-test",
+      "df": 22.0,
+      "t": -0.9665453327709259,
+      "p_value": 0.3442772662365643,
+      "cohen_d": -0.3945904797595561,
+      "significant": false
+    },
+    {
+      "measure": "stress",
+      "variance_homogeneity": "Homogeneous",
+      "levene_p_value": 0.7478656525850064,
+      "test": "Student t-test",
+      "df": 22.0,
+      "t": 2.6234694606343343,
+      "p_value": 0.015516206513672581,
+      "cohen_d": 1.0710269223881197,
+      "significant": true
+    },
+    {
+      "measure": "understanding",
+      "variance_homogeneity": "Homogeneous",
+      "levene_p_value": 0.24664655190468748,
+      "test": "Student t-test",
+      "df": 22.0,
+      "t": 2.135123375446113,
+      "p_value": 0.04413521412932513,
+      "cohen_d": 0.8716604679553082,
+      "significant": true
+    },
+    {
+      "measure": "memorability",
+      "variance_homogeneity": "Homogeneous",
+      "levene_p_value": 0.3309731107421482,
+      "test": "Student t-test",
+      "df": 22.0,
+      "t": -0.33608588516182486,
+      "p_value": 0.7399904797471437,
+      "cohen_d": -0.1372064880663492,
+      "significant": false
+    },
+    {
+      "measure": "time",
+      "variance_homogeneity": "Homogeneous",
+      "levene_p_value": 0.09438682088902972,
+      "test": "Student t-test",
+      "df": 22.0,
+      "t": 3.4107176563252004,
+      "p_value": 0.002506359309796043,
+      "cohen_d": 1.3924196524496761,
+      "significant": true
+    }
+  ]
+}
