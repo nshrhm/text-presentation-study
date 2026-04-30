@@ -15,9 +15,21 @@ This checklist records the repository-level checks performed before the `v1.0.0`
 - Manuscript figures are regenerated from `src/data_all.csv`.
 - `paper/main.pdf` is rebuilt from `paper/main.tex`.
 - LaTeX build log contains no unresolved citation or reference warnings.
+- The main manuscript file has been anonymized for double-anonymized review.
+- A separate title page file has been added.
+- CHBR-style highlights and declaration placeholder files have been added.
+- VAS scoring risks are documented in `docs/vas_codebook.md`.
 
 ## Publication Notes
 
 This repository is intended as a reviewer-facing research package for an unpublished manuscript. No private development notes from `backup/` are part of the release.
 
 No reuse license has been selected in this release. Until a license is added, copyright remains with the authors and GitHub's default terms apply.
+
+## Remaining Submission Blockers
+
+- Ethics approval or waiver details must be added before journal submission.
+- Stress VAS scoring direction must be verified before interpreting the stress result.
+- Stimulus source, exact excerpt, public-domain or permission status, and display details must be documented.
+- Participant recruitment, demographics, randomization, compensation, and group balance details must be completed.
+- Funding, competing interests, CRediT roles, and generative-AI declaration must be completed.

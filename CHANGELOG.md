@@ -10,3 +10,10 @@
 - Rebuilt the manuscript PDF.
 - Added reproducibility, data dictionary, experimental plan, and publication-boundary documentation.
 - Added ignore rules to keep private development notes and local draft artifacts out of Git.
+
+## Unreleased
+
+- Reframed the manuscript as a cautious exploratory report after CHBR-readiness audit.
+- Added a separate title page and anonymized the main manuscript.
+- Added CHBR-style highlights, declaration placeholders, VAS codebook, and revision plan.
+- Expanded the analysis outputs with Welch tests, confidence intervals, Hedges' g, multiple-comparison corrections, robustness checks, and sensitivity power analysis.

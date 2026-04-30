@@ -94,6 +94,15 @@ python3 src/visualize_data.py
 
 The manuscript PDF was rebuilt with `pdflatex`, `bibtex`, and two final `pdflatex` passes. The LaTeX log was checked for unresolved citation and reference warnings.
 
+## Build the Separate Title Page
+
+```bash
+cd paper
+pdflatex title_page.tex
+```
+
+The title page contains author-identifying information and must be submitted separately from the anonymized manuscript.
+
 ## Publication Boundary
 
 Do not publish or commit `backup/`. It contains private development notes and is not part of the reviewer package.

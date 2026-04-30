@@ -20,7 +20,10 @@ The manuscript reports statistically significant differences for stress, underst
 | Path | Purpose |
 | --- | --- |
 | `paper/main.tex` | Main LaTeX manuscript source. |
-| `paper/main.pdf` | Compiled manuscript for reviewer inspection. |
+| `paper/main.pdf` | Compiled anonymized manuscript for reviewer inspection. |
+| `paper/title_page.tex` | Separate title page with author information. |
+| `paper/highlights.md` | CHBR-style highlights file. |
+| `paper/declarations.md` | Submission declaration placeholders requiring author confirmation. |
 | `paper/refworks.bib` | Bibliography database used by the manuscript. |
 | `paper/images/` | English figures used in the manuscript. |
 | `src/data_all.csv` | Anonymized participant-level dataset used for visualization. |
@@ -31,6 +34,8 @@ The manuscript reports statistically significant differences for stress, underst
 | `docs/experimental_plan.md` | Experimental design and reviewer-facing protocol notes. |
 | `docs/data_dictionary.md` | Variable definitions and coding notes for the CSV dataset. |
 | `docs/analysis_results.md` | Regenerated descriptive and inferential statistics. |
+| `docs/vas_codebook.md` | VAS scoring documentation and unresolved coding checks. |
+| `docs/chbr_revision_plan.md` | CHBR-focused revision status and remaining blockers. |
 | `docs/reproducibility.md` | Reproduction steps for figures and manuscript build. |
 | `docs/publication_checklist.md` | Public-release audit checklist. |
 | `docs/log.md` | Public project log for reviewer orientation. |
@@ -48,6 +53,10 @@ The manuscript reports statistically significant differences for stress, underst
 The `backup/` directory contains private development notes and must not be published. It is intentionally excluded through `.gitignore`. Public documentation, code comments, and reviewer-facing materials in this repository should be written in English.
 
 The public dataset in `src/data_all.csv` contains anonymized participant-level measurements and does not include names, contact details, or direct identifiers.
+
+## Submission Readiness
+
+This repository now contains a more cautious exploratory manuscript package, but it is not ready for CHBR submission until the unresolved ethics approval/waiver details, VAS scoring direction, stimulus documentation, participant demographics, and declaration fields are confirmed.
 
 ## License
 
