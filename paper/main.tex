@@ -63,34 +63,25 @@ These dimensions were chosen to provide a broad view of perceived user experienc
 \subsection{Visual Analog Scale Implementation}
 The Visual Analog Scale (VAS) served as the primary measurement instrument for subjective evaluations. This choice was motivated by \citet{kuhlmann2016}, who reported advantages of the VAS over traditional Likert scales in digital environments, including reduced dropout rates and more differentiated responses. The VAS items were implemented as continuous sliders. Although prior work suggests that intermediate tick marks can improve VAS response accuracy and precision \citep{garcia-perez2023}, the present implementation used unticked sliders to reduce visual complexity and maintain a simple interface. This choice may affect measurement precision and is treated as a limitation.
 
-The VAS is characterized by intuitive responses on a continuous scale, allowing participants to express nuanced subjective experiences that might be constrained by discrete response options. The continuous nature of the VAS enables more sophisticated statistical analyses and provides greater sensitivity to subtle differences between conditions. Recent applications in medical and educational contexts have confirmed the validity and reliability of the VAS for measuring subjective experiences.
+The VAS is characterized by intuitive responses on a continuous scale, allowing participants to express nuanced subjective experiences that might be constrained by discrete response options. Prior work supports the use of VAS formats for some subjective responses, but the present single-item measures were study-specific and should be interpreted as exploratory subjective ratings rather than validated scales.
 
-An example of the Likert Scale format that was deliberately avoided is shown in Fig. \ref{fig:ls}, while a VAS interface example is illustrated in Fig. \ref{fig:vas}. The participants responded by positioning a slider along a continuous scale. The left endpoint was coded as 100 and the right endpoint as 0 in the original questionnaire documentation. The raw application recorded values from 0 to 1000, which were normalized to a 0--100 scale for analysis. Therefore, higher normalized values indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability. Table \ref{tab:vas_codebook} reports the item wording, anchors, raw coding, normalization, and interpretation of higher scores for each VAS item.
+The VAS interface example is illustrated in Fig. \ref{fig:vas}. The participants responded by positioning a slider along a continuous scale. The left endpoint was coded as 100 and the right endpoint as 0 in the original questionnaire documentation. The original questionnaire documentation is archived by the authors and confirms that the left endpoint was coded as 100 and the right endpoint as 0 for all VAS items. The raw application recorded values from 0 to 1000, which were normalized to a 0--100 scale for analysis. Therefore, higher normalized values indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability. Table \ref{tab:vas_codebook} reports the item wording, anchors, and interpretation of higher scores for each VAS item. The raw coding direction was identical for all items: left endpoint = 1000 and right endpoint = 0.
 
 \begin{table}[htbp]
   \centering
   \caption{VAS Items and Coding}
   \label{tab:vas_codebook}
-  \resizebox{\textwidth}{!}{%
-  \begin{tabular}{llllll}
+  \begin{tabularx}{\textwidth}{p{0.18\textwidth}X X p{0.20\textwidth}}
     \toprule
-    Construct & Item wording & Left anchor & Right anchor & Raw coding & Higher score means \\
+    Construct & Item wording & Left and right anchors & Higher score means \\
     \midrule
-    Readability & Was it easy to read? & Easier to read than anything experienced before & The highest possible difficulty reading & left = 1000, right = 0 & Greater perceived readability \\
-    Stress & Did you feel stress? & Unbearable stress & No stress at all & left = 1000, right = 0 & Greater stress \\
-    Self-reported ease of understanding & Was the text easy to understand? & Completely understood & Could not understand at all & left = 1000, right = 0 & Greater perceived understanding \\
-    Perceived memorability & Was the content easy to remember? & Completely remembered & Could not remember at all & left = 1000, right = 0 & Greater perceived memorability \\
+    Readability & Was it easy to read? & Left: Easier to read than anything experienced before; Right: The highest possible difficulty reading & Greater perceived readability \\
+    Stress & Did you feel stress? & Left: Unbearable stress; Right: No stress at all & Greater stress \\
+    Self-reported ease of understanding & Was the text easy to understand? & Left: Completely understood; Right: Could not understand at all & Greater perceived understanding \\
+    Perceived memorability & Was the content easy to remember? & Left: Completely remembered; Right: Could not remember at all & Greater perceived memorability \\
     \bottomrule
-  \end{tabular}%
-  }
+  \end{tabularx}
 \end{table}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[scale=0.6]{./images/ls_en.png}
-  \caption{Example of Likert Scale}
-  \label{fig:ls}
-\end{figure}
 
 \begin{figure}[htbp]
   \centering
@@ -316,7 +307,7 @@ This exploratory study provides preliminary evidence on character-by-character v
 
 Because understanding was measured subjectively, only one text stimulus was used, and the design was underpowered for moderate effects, the results should not be interpreted as evidence that character-by-character presentation improves objective comprehension. The most defensible conclusion is that streamed presentation may affect perceived understanding, affective response, and completion time in ways that warrant larger and better-controlled studies.
 
-For efficiency-focused tasks, full-text display appears preferable in this study because completion time was shorter. For contexts where perceived understanding or pacing is important, character-by-character presentation remains a candidate design pattern, but stronger evidence with objective comprehension measures is needed before making educational or learning claims.
+For efficiency-focused tasks, full-text display was associated with shorter completion time in this study. For contexts where pacing or perceived ease of understanding may matter, character-by-character presentation could be investigated further, but the present study does not establish that it improves comprehension, learning, memory, or task performance.
 
 The optimal application of these findings requires consideration of context-specific factors, including user goals, content type, and task requirements. Future research should focus on developing adaptive presentation systems that can dynamically adjust display methods according to user preferences and task demands.
 
@@ -326,10 +317,10 @@ The limitations of this study, including the sample size, text selection, VAS re
 All participants received written information about the study purpose, procedure, data handling, and academic use of responses, and provided written informed consent before participation. The original study records available for this revision do not include documentation of an institutional ethics approval or waiver. This absence is a critical limitation for journals that require documented ethics review for human-participant research.
 
 \section*{Data Availability}
-The anonymized participant-level dataset and analysis code supporting this study are publicly available at \url{https://github.com/nshrhm/text-presentation-study}.
+For double-anonymized review, the de-identified participant-level dataset and analysis code are provided as anonymized supplementary materials. A public repository link and persistent dataset citation will be supplied after review.
 
 \section*{Funding}
-The available study records do not identify a specific funding source.
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
 
 \section*{Declaration of Generative AI and AI-Assisted Technologies in the Manuscript Preparation Process}
 During the preparation of this work, the authors used ChatGPT and Codex for author-side pre-submission critique, revision planning, code and documentation editing, and language-editing support. After using these tools, the authors reviewed, edited, and verified the content, analyses, references, and interpretations, and take full responsibility for the content of the manuscript.

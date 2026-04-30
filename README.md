@@ -7,13 +7,13 @@ This repository contains the manuscript source, anonymized study data, and figur
 - character-by-character text presentation
 - immediate full-text presentation
 
-The repository is prepared primarily for peer reviewers who need to inspect the analysis materials, reproduce the figures, and understand the experimental design without relying on private development notes.
+The repository is a public research package for inspecting the analysis materials, reproducing the figures, and understanding the experimental design without relying on private development notes. It is not an anonymized CHBR review repository because the public GitHub owner and some repository files may identify the authors or internal revision history.
 
 ## Study Summary
 
 The study used a between-subjects design with 24 participants. Group A viewed text through character-by-character presentation, and Group B viewed the same text as full text. Participants evaluated readability, stress, understanding, and memorability using Visual Analog Scale ratings. Reading time was recorded as an objective measure.
 
-The manuscript reports statistically significant differences for stress, understanding, and reading time, while readability and memorability did not show statistically significant differences.
+The manuscript reports that completion time remained significant after Holm correction across five exploratory outcomes. Stress and self-reported ease of understanding differed only before correction, while readability and perceived memorability did not show clear group differences.
 
 ## Repository Contents
 
@@ -23,7 +23,7 @@ The manuscript reports statistically significant differences for stress, underst
 | `paper/main.pdf` | Compiled anonymized manuscript for reviewer inspection. |
 | `paper/title_page.tex` | Separate title page with author information. |
 | `paper/highlights.md` | CHBR-style highlights file. |
-| `paper/declarations.md` | Submission declaration placeholders requiring author confirmation. |
+| `paper/declarations.md` | Submission declarations requiring author confirmation. |
 | `paper/refworks.bib` | Bibliography database used by the manuscript. |
 | `paper/images/` | English figures used in the manuscript. |
 | `src/data_all.csv` | Anonymized participant-level dataset used for visualization. |
@@ -37,6 +37,7 @@ The manuscript reports statistically significant differences for stress, underst
 | `docs/vas_codebook.md` | VAS scoring documentation and unresolved coding checks. |
 | `docs/stimulus_source.md` | Source metadata for the reading stimulus. |
 | `docs/chbr_revision_plan.md` | CHBR-focused revision status and remaining blockers. |
+| `docs/chbr_anonymous_review_package.md` | Plan for a double-anonymized CHBR review package. |
 | `docs/rebuttal_round1.md` | Draft response to reviewers based on the current revision. |
 | `docs/reproducibility.md` | Reproduction steps for figures and manuscript build. |
 | `docs/publication_checklist.md` | Public-release audit checklist. |
@@ -58,7 +59,7 @@ The public dataset in `src/data_all.csv` contains anonymized participant-level m
 
 ## Submission Readiness
 
-This repository now contains a more cautious exploratory manuscript package, but it is not ready for CHBR submission until the unresolved ethics approval/waiver details, remaining stimulus display details, participant demographics, and declaration fields are confirmed.
+This repository now contains a more cautious exploratory manuscript package, but it is not ready for CHBR submission until the unresolved ethics approval/waiver details, remaining stimulus display details, participant demographics, and declaration fields are confirmed. For double-anonymized CHBR review, use a stripped anonymized supplement or review repository rather than linking to this public repository.
 
 ## License
 

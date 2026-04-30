@@ -12,6 +12,7 @@ This document converts the manuscript audit into repository tasks.
 - Added CHBR-style highlights as a separate editable file.
 - Added a separate title page file and anonymized the main manuscript file.
 - Added declaration files and a VAS codebook.
+- Added an anonymous review package plan for CHBR double-anonymized review.
 
 ## Blocking Items Requiring Author Confirmation
 
@@ -19,7 +20,8 @@ This document converts the manuscript audit into repository tasks.
 - Default VAS slider positions, if they need to be reported.
 - Exact stimulus text, length, language, line breaks, font, and display layout. Source metadata has been documented in `docs/stimulus_source.md`.
 - Recruitment source, compensation, demographics, language/reading background, randomization procedure, and group balance.
-- Funding, competing interests, CRediT author roles, and final author approval of the generative AI declaration.
+- Competing interests, CRediT author roles, and final author approval of the generative AI declaration.
+- Creation of an anonymized review-safe repository or supplementary package.
 
 ## Recommended Decision Before CHBR Submission
 

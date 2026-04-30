@@ -11,7 +11,7 @@ The public CSV contains normalized 0-100 values for the following variables:
 - `understanding`
 - `memorability`
 
-The item wording and anchors have been confirmed by the author. The Japanese source manuscript `original.pdf` states that participants answered by moving a slider where the left endpoint was 100 and the right endpoint was 0. Therefore, all four public VAS variables are coded so that higher values indicate more of the named construct.
+The item wording and anchors have been confirmed by the author. The Japanese source manuscript `original.pdf`, archived outside the public repository, states that participants answered by moving a slider where the left endpoint was 100 and the right endpoint was 0. Therefore, all four public VAS variables are coded so that higher values indicate more of the named construct.
 
 ## Required Item-Level Documentation
 
@@ -26,14 +26,12 @@ The item wording and anchors have been confirmed by the author. The Japanese sou
 
 The stress item used the left anchor "Unbearable stress" and the right anchor "No stress at all." Because the source manuscript states left=100 and right=0, higher normalized stress values indicate greater stress. The stress interpretation in the analysis is therefore directionally consistent with the instrument documentation.
 
-## Submission Requirement
+## Remaining Reporting Limitations
 
-Before journal submission, add a table to the manuscript with:
+The manuscript now includes a VAS codebook table. Remaining details that should be recovered from the original UI materials if possible:
 
-- exact item wording
-- left and right anchors
-- raw scale range
-- normalized scale range
 - default slider position, if available
-- scoring direction
-- reverse-coding procedure, if used; based on current documentation, no reverse coding is required
+- any UI constraint that prevented submission without moving the slider
+- screenshots or source UI files that independently document the item order and default state
+
+Based on current documentation, no reverse coding is required.

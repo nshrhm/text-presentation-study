@@ -17,13 +17,11 @@ Required details:
 
 ## Data Availability
 
-The anonymized participant-level dataset and analysis code are publicly available in this repository:
-
-https://github.com/nshrhm/text-presentation-study
+For double-anonymized review, the de-identified participant-level dataset and analysis code are provided as anonymized supplementary materials. A public repository link and persistent dataset citation will be supplied after review.
 
 ## Funding
 
-Pending author confirmation.
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
 
 ## Competing Interests
 

@@ -6,7 +6,7 @@ We thank the editor and reviewers for their detailed and constructive comments. 
 
 **Comment: The manuscript was not prepared for double-anonymized review and lacked required submission materials.**
 
-Response: We agree. We removed author names, affiliations, corresponding-author information, and author footnotes from the main manuscript. We prepared a separate title page file containing author information. We also added separate highlights and declaration files.
+Response: We agree. We removed author names, affiliations, corresponding-author information, and author footnotes from the main manuscript. We prepared a separate title page file containing author information. We also added separate highlights and declaration files. We further documented that the public GitHub repository is not suitable as the repository linked from a double-anonymized CHBR manuscript; an anonymized review package or anonymized repository should be used during review.
 
 Changes made:
 
@@ -14,10 +14,11 @@ Changes made:
 - Separate title page: `paper/title_page.tex`
 - Highlights: `paper/highlights.md`
 - Declarations file for author completion: `paper/declarations.md`
+- Anonymous review package plan: `docs/chbr_anonymous_review_package.md`
 
 **Comment: Human-subject ethics reporting is incomplete.**
 
-Response: We agree. We have not invented ethics information that is not yet confirmed. The revised manuscript now states the verified consent information and explicitly identifies the absence of recoverable institutional ethics approval or waiver documentation as a submission-blocking limitation. The declarations and checklist files identify the exact author-confirmed information required before a CHBR submission can proceed: approving body or waiver authority, date, reference number, consent procedure, privacy protection procedure, and handling of participants aged 16-17.
+Response: We agree. We have not invented ethics information that is not yet confirmed. The revised manuscript now states the verified consent information and explicitly identifies the absence of recoverable institutional ethics approval or waiver documentation as a critical limitation. The declarations and checklist files identify the exact author-confirmed information required before a CHBR submission can proceed: approving body or waiver authority, date, reference number, consent procedure, privacy protection procedure, and handling of participants aged 16-17.
 
 Changes made:
 
@@ -108,7 +109,7 @@ Changes made:
 
 **Comment 4: VAS design, anchors, scaling, and interpretation were underreported.**
 
-Response: We agree. We documented the exact item wording and left/right anchors for all four VAS items in both the manuscript and `docs/vas_codebook.md`. The original questionnaire used left=100 and right=0, and the raw application values were normalized from 0-1000 to 0-100. Higher values therefore indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability. We also corrected the VAS tick-mark rationale: the manuscript now states that unticked sliders were an implementation choice and that this may affect measurement precision.
+Response: We agree. We documented the exact item wording and left/right anchors for all four VAS items in both the manuscript and `docs/vas_codebook.md`. The original questionnaire used left=100 and right=0, and the raw application values were normalized from 0-1000 to 0-100. Higher values therefore indicate greater readability, greater stress, greater self-reported ease of understanding, and greater perceived memorability. We also corrected the VAS tick-mark rationale: the manuscript now states that unticked sliders were an implementation choice and that this may affect measurement precision. The manuscript now avoids implying that the study-specific single-item VAS measures are validated scales.
 
 Changes made:
 
@@ -145,7 +146,7 @@ Response: We reduced the keyword list to seven keywords.
 
 **Highlights**
 
-Response: We added a separate highlights file with four concise highlights.
+Response: We added a separate highlights file with four concise highlights and updated it so that it no longer states that stress coding still requires verification.
 
 **Section structure**
 
@@ -153,7 +154,7 @@ Response: We renamed "Results and Discussion" to "Discussion" and reduced repeat
 
 **Reference style and citation mismatches**
 
-Response: We changed the manuscript to use author-date citation commands and corrected author-name mismatches for Darejeh et al. and Amadieu et al.
+Response: We changed the manuscript to use author-date citation commands, corrected author-name mismatches for Darejeh et al. and Amadieu et al., added DOI links where available, and marked Darejeh et al. as an arXiv preprint.
 
 **Author footnotes**
 
@@ -170,9 +171,9 @@ The following items still require author confirmation or additional source mater
 - Ethics approval or waiver details.
 - Exact stimulus length, line breaks, font, display layout, and total reveal duration, if recoverable from original materials.
 - Participant recruitment source, compensation, demographics, language/reading background, randomization procedure, and group balance.
-- Funding statement.
 - Competing-interest declaration.
 - CRediT author statement.
 - Final author approval of the generative AI declaration.
+- Creation of an anonymized review-safe repository or supplementary package.
 
 We have documented these remaining blockers in `docs/chbr_revision_plan.md` and `docs/publication_checklist.md`.
